@@ -1,0 +1,191 @@
+/* --------------------Variables */
+:root {
+  --celeste-color: rgb(166, 188, 255);
+  --white-color: white;
+  --black-color: black;
+  /* Espaciado */
+  --space: 16px;
+  /* Tipografia */
+  --normal: 15px;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+  font-size: var(--normal);
+}
+nav {
+  display: flex;
+  background-color: var(--celeste-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--white-color);
+}
+
+/* main section */
+.main_section {
+  padding: 10%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("/images/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding-left: 10px;
+  margin-top: -240px;
+}
+
+.product .content {
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: 0 0 2px var(--black-color);
+}
+
+.image_content {
+  text-align: center;
+}
+
+.main_button {
+  background-color: var(--celeste-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover {
+  background-color: var(--celeste-color);
+}
+
+/* skills inicia aquí */
+
+.skills {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.skill {
+  border: rgb(219, 219, 219) 1px solid;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.tittle-mentions {
+  text-align: center;
+  border-top: gray 1px solid;
+  padding-top: 2%;
+  font-size: 45px;
+}
+
+.mentions {
+  justify-content: center;
+  display: flex;
+}
+
+.mention {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 1px 4px 7px 0px #bdbdbd78;
+  padding: 10px 25px 10px 25px;
+  padding-top: 20px;
+  border: 1px rgba(128, 128, 128, 0.137) solid;
+  border-radius: 100px 5px 0 5px;
+}
+
+.mention img {
+  width: 250px;
+  height: 200px;
+  border-bottom: aquamarine 1px solid;
+}
+
+/* venta */
+.modulo-pago {
+  background-color: var(--white-color);
+  box-shadow: 0 0 2px var(--black-color);
+  padding: 10px;
+}
+
+.modulo-pago-images {
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.data {
+  margin-top: 5px;
+  width: 100%;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.main-button {
+  width: 100%;
+  margin-top: 10px;
+  color: var(--celeste-color);
+  border: 0px var(--black-color);
+  height: 30px;
+}
+
+/* aquí inicia lo estilos del footer */
+
+.footer-container {
+  background: cadetblue;
+  width: 100%;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  color: white;
+  font-size: var(--normal);
+  margin-top: 5%;
+}
+
+.terms {
+  padding: 0 15px;
+}
+
+.contact {
+  padding: 0 15px;
+}
